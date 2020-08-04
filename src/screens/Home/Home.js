@@ -1,10 +1,12 @@
 import React from 'react';
-import EnterNameView from './EnterNameView';
+import HomeView from './HomeView';
 
-export default class EnterName extends React.Component {
+class Home extends React.Component {
   render() {
     return (
-      <EnterNameView />
+      <HomeView />
     );
   }
 }
+
+export default Home;

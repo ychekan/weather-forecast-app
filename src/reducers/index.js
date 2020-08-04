@@ -2,8 +2,7 @@ import { combineReducers } from 'redux';
 import common from './common';
 
 const rootReducer = combineReducers({
-  general,
-  user
+  common,
 });
 
 export default rootReducer;

@@ -10,7 +10,6 @@ import theme from './src/theme';
 const Navigation = createAppContainer(AppNavigator);
 
 const App = () => (
-  // eslint-disable-next-line react/jsx-filename-extension
   <StoreProvider store={store}>
     <PaperProvider theme={theme}>
       <Navigation />
